@@ -1,0 +1,10 @@
+.expence{
+    padding-top:5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
