@@ -27,7 +27,7 @@ const ExpenceForm = ({onFormSubmit}) => {
           date: date,
           amount: amount
       }
-    if(text,type,date,amount)
+    if(text&&type&&date&&amount)
       onFormSubmit(obj);
 
     e.preventDefault();

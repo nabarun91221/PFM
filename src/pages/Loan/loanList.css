@@ -1,0 +1,15 @@
+.loanList{
+    display: flex;
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    margin: 1rem;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 1%;
+    border-radius: 2%;
+    font-weight: 600;
+    color: rgba(74, 74, 74, 0.808);
+    
+}

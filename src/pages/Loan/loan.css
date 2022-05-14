@@ -1,0 +1,7 @@
+.Loan{
+    padding-top: 6rem;
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
+    align-items: center;
+}

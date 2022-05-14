@@ -24,7 +24,27 @@ let Datas= {
                 loanProvider: "Bank",
                 type: "bike",
                 amount: 130000,
-                inRate: "4.5%",
+                inRate: 4.5,
+                duration: 12,
+                mntGap: 2,
+                totalAmt:135850,
+                oneTimeAmt:22641 //=> totalAmt/(duration-mntGap);
+            },
+            {
+                loanProvider: "Bank",
+                type: "bike",
+                amount: 130000,
+                inRate: 4.5,
+                duration: 12,
+                mntGap: 2,
+                totalAmt:135850,
+                oneTimeAmt:22641 //=> totalAmt/(duration-mntGap);
+            },
+            {
+                loanProvider: "Bank",
+                type: "bike",
+                amount: 130000,
+                inRate: 4.5,
                 duration: 12,
                 mntGap: 2,
                 totalAmt:135850,

@@ -8,7 +8,7 @@ let LoanDatas = {
             loanProvider: "Bank",
             type: "bike",
             amount: 130000,
-            inRate: "4.5%",
+            inRate: 4.5,
             duration: 12,
             mntGap: 2,
             totalAmt:135850,

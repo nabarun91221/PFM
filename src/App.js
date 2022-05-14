@@ -8,6 +8,7 @@ import Register from './pages/login/register';
 import Nav from './components/nav';
 import { motion } from 'framer-motion';
 import Expence from './pages/Expence/expence';
+import Loan from './pages/Loan/loan';
 function App() {
   const [login, setlogin] = useState(true);
   const loginToggle = () => {
@@ -29,8 +30,8 @@ function App() {
               
           }></Route>
           <Route exact path='/expence' element={<Expence />}></Route>
-         {/* <Route exact path='/reminder/:id' element={<Reminder />}></Route>
-       <Route exact path='/cards/:id' element={<DashBoard />}></Route> */}
+          <Route exact path='/loan' element={<Loan/>}></Route>
+       {/*<Route exact path='/cards/:id' element={<DashBoard />}></Route> */}
        </Routes>
         </Router>
       </motion.div>

@@ -1,0 +1,33 @@
+/* .LoanForm{
+    text-align: left;
+} */
+.same{
+        width: 85%;
+        height: 1.5rem;
+        margin: 2.5%;
+        background-color: rgba(0, 84, 84, 0.105);
+        border: 1px rgba(114, 114, 114, 0.19) solid;
+        border-radius: 2px;
+}
+label{
+    align-self:left;
+    margin-right: auto;
+    margin-left: 1.5rem;
+}
+.loanType{
+    width: 87%;
+    height: 2.3rem;
+}
+.Eform{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 20rem;
+        height: 42rem;
+        background-color: rgb(255, 255, 255);
+        flex-wrap: wrap;
+        border-radius: 0.5rem;
+}
